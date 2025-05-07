@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="body">
+    <main class="main">
+        <nav class="nav">
+            <div class="nav-flex">
+                <div>
+                    <img class="snap" src="/images/logo.svg" alt="">
+                </div>
+                <div class="menu">
+                    <span class="item">
+                       <p>Features</p> 
+                       <img class="arrow" src="/images/icon-arrow-down.svg" alt="">
+                    </span>
+                    <span class="item">
+                        <p>Company</p>
+                        <img class="arrow" src="images/icon-arrow-down.svg" alt="">
+                    </span>
+                    <span>
+                        <p>Careers</p>
+                    </span>
+                    <span>
+                        <p>About</p>
+                    </span>
+                </div>
+               
+            </div>
+            <div class="login-flex">
+                <p>Login</p>
+                <button class="Register">Register</button>
+            </div>
+            <span class="menu-image">
+                <img class="hambuger-icon"  src="/images/icon-menu.svg" alt="">
+            </span>
+        </nav>
+        <span>
+            <img class="mobile-hero" src="/images/image-hero-mobile.png" alt="">
+        </span>
+        <div class="content-flex">
+            <div class="content">
+                <h1 class="heading">Make remote work</h1>
+                <p class="paragraph">Get your team in sync, no matter your location. Streamline processes, 
+                    create team rituals, and watch productivity soar. </p>
+               <span class="logo-flex">
+                    <div class="learn">
+                        <button class="learn-more">Learn more</button>
+                    </div>
+                  
+                    <span class="logo-image">
+                    <img class="logo" src="/images/client-databiz.svg" alt="">
+                    <img class="logo" src="/images/client-audiophile.svg" alt="">
+                    <img class="logo" src="/images/client-meet.svg" alt="">
+                    <img class="logo" src="/images/client-maker.svg" alt="">
+                    </span>
+               </span>
+                    
+    
+            </div>
+            <div>
+                <img class="desk-hero" src="/images/image-hero-desktop.png" alt="">
+            </div>
+        </div>
+       
 
-  Features
-  Company
-  Careers
-  About
 
-  Login
-  Register
 
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </main>
 </body>
 </html>
